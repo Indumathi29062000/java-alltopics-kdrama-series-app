@@ -25,6 +25,11 @@ ActorDisplayDetailsSubClass actorDisplayDetailsSubClass=new ActorDisplayDetailsS
 actorDisplayDetailsSubClass.printActorMessage();
 actorDisplayDetailsSubClass.DisplayActorDetails("Lee Min HO");
 
+//multiple inheritance object to display kdrama details that is stored in collection framework
+KdramaDisplayMultipleInheritanceClass kdramaDisplay = new KdramaDisplayMultipleInheritanceClass(
+        "", "", null, "", Genre.Action,0);
+kdramaDisplay.kdramadisplayGetMethod();
+
 //DateTime class object to call the method 
 DateTime dateTime=new DateTime();
 dateTime.datetime();
