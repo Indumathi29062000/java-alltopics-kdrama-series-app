@@ -1,7 +1,7 @@
 package com.kdrama.app;
 
 import java.util.Date;
-//main class that handles this kdrama series app
+//normal class that has kdrama deatils
 public class Kdrama {
     protected String title;
     protected String director;
