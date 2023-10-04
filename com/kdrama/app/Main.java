@@ -30,6 +30,10 @@ KdramaDisplayMultipleInheritanceClass kdramaDisplay = new KdramaDisplayMultipleI
         "", "", null, "", Genre.Action,0);
 kdramaDisplay.kdramadisplayGetMethod();
 
+//type casting object
+TypeCastingClass typeCastingClass=new TypeCastingClass();
+typeCastingClass.typeCastingMethod();
+
 //DateTime class object to call the method 
 DateTime dateTime=new DateTime();
 dateTime.datetime();

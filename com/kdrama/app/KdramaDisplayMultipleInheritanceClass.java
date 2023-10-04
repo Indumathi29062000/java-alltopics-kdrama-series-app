@@ -32,7 +32,6 @@ public class KdramaDisplayMultipleInheritanceClass extends Kdrama implements Ima
        	//add elements in array list
        	ArrayListTitle.add("Healer");
        	ArrayListTitle.add("Goblin");
-
        	
        	//Hash map to have key and values
        	HashMap<String, String>directorHashmap=new 	HashMap<String, String>();
@@ -49,7 +48,7 @@ public class KdramaDisplayMultipleInheritanceClass extends Kdrama implements Ima
      	episodesHashMap.put("Goblin",21);
 
        	
-       	//if condition to print values of k drama
+       	//if condition to print values of k drama by matching user given data and array list condition
        	if (ArrayListTitle.contains(title)) {
        		System.out.println("below are the details of mentioned drama:");
        		System.out.println("title:"+title);
