@@ -24,6 +24,8 @@ System.out.println("current login:"+ZonedDateTime.now().format(DateTimeFormatter
 ActorDisplayDetailsSubClass actorDisplayDetailsSubClass=new ActorDisplayDetailsSubClass();
 actorDisplayDetailsSubClass.printActorMessage();
 actorDisplayDetailsSubClass.DisplayActorDetails("Lee Min HO");
+//method overloading
+actorDisplayDetailsSubClass.DisplayActorDetails("Choi", "She was pretty");
 
 //multiple inheritance object to display kdrama details that is stored in collection framework
 KdramaDisplayMultipleInheritanceClass kdramaDisplay = new KdramaDisplayMultipleInheritanceClass(

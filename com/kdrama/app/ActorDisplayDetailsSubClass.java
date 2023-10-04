@@ -13,7 +13,12 @@ public class ActorDisplayDetailsSubClass extends ActorAbstractClass {
     	  System.out.println(actorName);
 		
 	}
-	
+	//method overloading
+	public void DisplayActorDetails(String actorName,String dramaName)
+	{
+  	  System.out.println(actorName+","+dramaName);
+
+	}
 	@Override
 	public void printActorMessage() {
 		System.out.println("below are the details of ML and FL:");
