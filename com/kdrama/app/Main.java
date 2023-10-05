@@ -27,7 +27,7 @@ actorDisplayDetailsSubClass.DisplayActorDetails("Lee Min HO");
 //method overloading
 actorDisplayDetailsSubClass.DisplayActorDetails("Choi", "She was pretty");
 
-//multiple inheritance object to display kdrama details that is stored in collection framework
+//multiple inheritance object to display k drama details that is stored in collection framework
 KdramaDisplayMultipleInheritanceClass kdramaDisplay = new KdramaDisplayMultipleInheritanceClass(
         "", "", null, "", Genre.Action,0);
 kdramaDisplay.kdramadisplayGetMethod();
@@ -36,9 +36,14 @@ kdramaDisplay.kdramadisplayGetMethod();
 TypeCastingClass typeCastingClass=new TypeCastingClass();
 typeCastingClass.typeCastingMethod();
 
+//string buffer.string builder, stringTokenizer
+FollowPageStringVariantsClass followPageStringVariantsClass=new FollowPageStringVariantsClass();
+followPageStringVariantsClass.FollowPageStringVariantmethod();
+
 //DateTime class object to call the method 
 DateTime dateTime=new DateTime();
 dateTime.datetime();
+
 
 	}
 	//default constructor
