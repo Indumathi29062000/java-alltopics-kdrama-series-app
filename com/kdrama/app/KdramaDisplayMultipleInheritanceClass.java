@@ -40,6 +40,7 @@ public class KdramaDisplayMultipleInheritanceClass extends Kdrama implements Ima
 
        	//HashMap<String,Date >releasedHashMap=new HashMap<String,Date>();
         //releasedHashMap.put("Healer",DateTimeFormatter.ofPattern("dd-MM-yyyy", 29-06-2000));
+       	//Wrapper class
        	HashMap<String,String >DescriptionHashMap=new HashMap<String,String>();
        	DescriptionHashMap.put("Healer", "this is an amazing drama");
        	DescriptionHashMap.put("Goblin", "this is an fantasy drama");

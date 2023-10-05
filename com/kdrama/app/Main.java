@@ -1,5 +1,6 @@
 package com.kdrama.app;
 
+import java.io.IOException;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -39,6 +40,18 @@ typeCastingClass.typeCastingMethod();
 //string buffer.string builder, stringTokenizer
 FollowPageStringVariantsClass followPageStringVariantsClass=new FollowPageStringVariantsClass();
 followPageStringVariantsClass.FollowPageStringVariantmethod();
+
+//serilaiZation , exception object
+SerilizationExceptionClass serilizationExceptionClass=new SerilizationExceptionClass();
+try {
+	serilizationExceptionClass.serializationMethod();
+} catch (IOException e) {
+	// TODO Auto-generated catch block
+	e.printStackTrace();
+} catch (ClassNotFoundException e) {
+	// TODO Auto-generated catch block
+	e.printStackTrace();
+}
 
 //DateTime class object to call the method 
 DateTime dateTime=new DateTime();

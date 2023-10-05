@@ -18,7 +18,6 @@ public class FollowPageStringVariantsClass {
          System.out.println(st.nextToken());  
      }  
 	
-	
 	}
 	
 	
