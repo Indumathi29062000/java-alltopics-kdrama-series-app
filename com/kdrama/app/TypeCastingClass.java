@@ -10,9 +10,13 @@ public class TypeCastingClass {
  String StringPhoneNumber="3125678900";
 //for strings we can use
  Long phoneNumber=Long.parseLong(StringPhoneNumber);
+ int rating;
 //implicit
-System.out.println("Leave your rating here:");
-int rating=sc.nextInt();
+ //do while loop
+ do {
+System.out.println("Leave your rating(1-5) here:");
+ rating=sc.nextInt();
+ }while(rating>=5);
 float ratingFloat=rating;
 //explicit
 int intrating=(int)ratingFloat;
