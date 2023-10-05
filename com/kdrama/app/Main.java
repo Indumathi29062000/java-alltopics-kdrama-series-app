@@ -10,7 +10,6 @@ public class Main {
 	public static void main(String args[])
 	{
 System.out.println("Welcome To Kdrama Series Application \n");  
-
 //final class object to call final method to print about content
 AboutFinal aboutFinal=new AboutFinal();
 aboutFinal.finalmethod();
@@ -33,6 +32,11 @@ KdramaDisplayMultipleInheritanceClass kdramaDisplay = new KdramaDisplayMultipleI
         "", "", null, "", Genre.Action,0);
 kdramaDisplay.kdramadisplayGetMethod();
 
+//recursion object
+SongsRecursionIterativeClass songsRecursionIterativeClass=new SongsRecursionIterativeClass();
+songsRecursionIterativeClass.recursionMethod();
+//iteration object
+songsRecursionIterativeClass.iterationMethod();
 //type casting object
 TypeCastingClass typeCastingClass=new TypeCastingClass();
 typeCastingClass.typeCastingMethod();

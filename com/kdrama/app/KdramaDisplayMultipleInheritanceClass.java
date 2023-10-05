@@ -68,7 +68,7 @@ public class KdramaDisplayMultipleInheritanceClass extends Kdrama implements Ima
        		}
        	}
        	else {
-       		System.out.println("No such kdrama available, try searching another drama");
+       		System.out.println("No such kdrama available, try searching another drama \n");
 
        	}
            

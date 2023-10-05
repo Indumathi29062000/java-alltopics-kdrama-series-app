@@ -10,7 +10,4 @@ public void printActorMessage() {
 	System.out.println("Below is the Actor/Actress who played the role in this drama: /n");
 }
 
-
-
-	
 }
